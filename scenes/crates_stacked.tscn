@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://chypdt3vuts77"]
+
+[ext_resource type="PackedScene" uid="uid://cbnl86mwaubfp" path="res://models/props/crates_stacked.glb" id="1_uxdji"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_uxdji"]
+radius = 1.3
+
+[node name="Crates_Stacked" type="StaticBody3D"]
+
+[node name="crates_stacked2" parent="." instance=ExtResource("1_uxdji")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.2, 0.7, -0.1)
+shape = SubResource("SphereShape3D_uxdji")

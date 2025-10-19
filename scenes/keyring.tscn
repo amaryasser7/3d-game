@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bksvahp8n3dj7"]
+
+[ext_resource type="PackedScene" uid="uid://2cirjnfedb2x" path="res://models/props/keyring.glb" id="1_uy4su"]
+
+[node name="Keyring" type="Node3D"]
+
+[node name="keyring2" parent="." instance=ExtResource("1_uy4su")]

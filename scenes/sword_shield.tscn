@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://jsgmtuyw1hum"]
+
+[ext_resource type="PackedScene" uid="uid://c4mrhmr7ax0fr" path="res://models/props/sword_shield.glb" id="1_t33fi"]
+
+[node name="Sword_shield" type="Node3D"]
+
+[node name="sword_shield" parent="." instance=ExtResource("1_t33fi")]
